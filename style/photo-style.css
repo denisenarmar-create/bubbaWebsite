@@ -1,0 +1,30 @@
+body {
+    background-color: #fadfac;
+    font-family: 'Times New Roman', Times, serif, Arial;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+}
+
+.mainTitle {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    #maintitle {
+        font-size: 1.5em;
+    }
+}
+
+.money {
+    width: 350px;
+    height: 350px;
+}
+
+.para {
+    position: relative;
+    text-align: center;
+    animation-name: aniTitle;
+    animation-duration: 4s;
+}

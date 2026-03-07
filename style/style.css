@@ -1,0 +1,48 @@
+body {
+    background-color: #fadfac;
+    font-family: 'Times New Roman', Times, serif, Arial;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+}
+
+.mainTitle {
+    position: absolute;
+    left: 50%;
+    font-size: 2em;
+    animation-name: aniTitle;
+    animation-duration: 4s;
+}
+
+@media only screen and (max-width: 768px) {
+    #maintitle {
+        font-size: 1.5em;
+    }
+}
+
+@keyframes  aniTitle {
+    0% {left: 0%; opacity: 0;}
+    20% {left: 10%; opacity: 0.8;}
+}
+
+@keyframes popUp {
+    0% {top: -5%}
+    5% {top: -5%;}
+    10% {top: 10%;}
+}
+
+.link1 {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    animation-name: popUp;
+    animation-duration: 27s;
+}
+
+.para {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    animation-name: aniTitle;
+    animation-duration: 4s;
+}
+
