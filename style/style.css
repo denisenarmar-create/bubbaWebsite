@@ -8,7 +8,7 @@ body {
 .mainTitle {
     position: absolute;
     left: 50%;
-    font-size: 2em;
+    font-size: 1.5em;
     animation-name: aniTitle;
     animation-duration: 4s;
 }
@@ -45,4 +45,5 @@ body {
     animation-name: aniTitle;
     animation-duration: 4s;
 }
+
 
